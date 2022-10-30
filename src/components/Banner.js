@@ -9,7 +9,7 @@ export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(0);
-    const toRotate = ["Software Engineer", "Unity Developer"];
+    const toRotate = ["Software Engineer", "Unity Developer", "Tech Enthusiast", "Computer Scientist"];
     const period = 2000;
 
     useEffect(() => {
@@ -51,9 +51,9 @@ export const Banner = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Welcome to my Portfolio</span>
-                                    <h1>{`Hi, I'm Tyler Nguyen! `}</h1>
-                                    <h1>{`< `}<span className="wrap">{text} {` >`}</span></h1>
-                                    <p>Welcome! I'm currently a senior at University of New Haven majoring in Computer Science. 
+                                    <h1>{`I'm a `}</h1>
+                                    <h1>{`{ `}<span className="wrap">{text} {` }`}</span></h1>
+                                    <p>Currently a senior at University of New Haven majoring in Computer Science. 
                                       I'm passionate about all computer related topics, especially programming and game development! Feel free to explore the site!</p>
                                     <a href="#connect" className="text-decoration-none"><button>Let's connect!<ArrowRightCircle size={25} /></button></a>
                                 </div>}

@@ -69,7 +69,7 @@ export const Projects = () => {
             <Col size={12}>
                   <div>
                   <h2>Projects</h2>
-                  <p>These are some projects that I have either ongoing or finished. Please let me know if you are interested in seeing the repo by using the contact form below.</p>
+                  <p>These are some projects that I have either ongoing or finished.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Tab.Content id="slideInUp">
                         <Row>

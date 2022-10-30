@@ -90,6 +90,12 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
+nav.navbar h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+}
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
@@ -469,11 +475,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #141414 -5.91%, #16bb6880 111.58%);
+  background: linear-gradient(90.21deg, #080808 -0%, #16bb6880 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
   width: 92%;
+  margin-right: 100px;
 }
 .contact h2 {
 	font-size: 45px;
