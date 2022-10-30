@@ -2,6 +2,11 @@ import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard.js";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
+import SudokuHelper from "../assets/img/SudokuHelper.png";
+import CommandLanguage from "../assets/img/CommandLanguage.png";
+import CarReservation from "../assets/img/CarReservation.png";
+import WorkInProgress from "../assets/img/WorkInProgress.png";
+
 
 export const Projects = () => {
 
@@ -19,7 +24,7 @@ export const Projects = () => {
     {
       title: "Sudoku Helper",
       description: "Sudoku Helper in C++ using OOP!",
-      imgUrl: projImg2,
+      imgUrl: SudokuHelper,
     },
     {
       title: "Slot Machine",
@@ -32,18 +37,14 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "AI Simulation using Machine Learning",
-      description: "AI Simulation in Unity using Machine Learning (ML-Agents)!",
-      imgUrl: projImg2,
-    },    {
       title: "Basic Command Language",
       description: "Basic Command Language in Linux using C/C++!",
-      imgUrl: projImg2,
+      imgUrl: CommandLanguage,
     },    
     {
       title: "Car Reservaion",
       description: "Car Reservation System in C++ using Linked Lists!",
-      imgUrl: projImg2,
+      imgUrl: CarReservation,
     },
     {
       title: "1v1 Battler",
@@ -51,14 +52,19 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
+      title: "AI Simulation using Machine Learning",
+      description: "AI Simulation in Unity using Machine Learning (ML-Agents)!",
+      imgUrl: WorkInProgress,
+    },   
+    {
       title: "3D Roguelite",
       description: "Capstone Project W.I.P.!",
-      imgUrl: projImg2,
+      imgUrl: WorkInProgress,
     },
     {
       title: "Ongoing...",
       description: "More projects to come!",
-      imgUrl: projImg2,
+      imgUrl: WorkInProgress,
     },
   ];
 
