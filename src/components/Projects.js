@@ -2,11 +2,12 @@ import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard.js";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
-import SudokuHelper from "../assets/img/SudokuHelper.png";
 import CommandLanguage from "../assets/img/CommandLanguage.png";
 import CarReservation from "../assets/img/CarReservation.png";
 import WorkInProgress from "../assets/img/WorkInProgress.png";
-
+import Battle from "../assets/img/Battle.png";
+import Platformer from "../assets/img/Platformer.png";
+import VR from "../assets/img/VR.png";
 
 export const Projects = () => {
 
@@ -14,7 +15,7 @@ export const Projects = () => {
     {
       title: "3D Platformer",
       description: "Unity Game",
-      imgUrl: projImg1,
+      imgUrl: Platformer,
     },
     {
       title: "Personal Portfolio",
@@ -22,19 +23,9 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "Sudoku Helper",
-      description: "Sudoku Helper in C++ using OOP!",
-      imgUrl: SudokuHelper,
-    },
-    {
-      title: "Slot Machine",
-      description: "Slot Machine in C++ using Circular Linked List!",
-      imgUrl: projImg2,
-    },
-    {
       title: "VR Game",
       description: "Carnvial Themed VR Game in Unity!",
-      imgUrl: projImg2,
+      imgUrl: VR,
     },
     {
       title: "Basic Command Language",
@@ -49,7 +40,12 @@ export const Projects = () => {
     {
       title: "1v1 Battler",
       description: "1v1 Battler in C++ using Polymorphism!",
-      imgUrl: projImg2,
+      imgUrl: Battle,
+    },
+    {
+      title: "Sudoku Helper",
+      description: "Sudoku Helper in C++ using OOP!",
+      imgUrl: WorkInProgress,
     },
     {
       title: "AI Simulation using Machine Learning",
@@ -76,6 +72,7 @@ export const Projects = () => {
                   <div>
                   <h2>Projects</h2>
                   <p>These are some projects that I have either ongoing or finished.</p>
+                  <p>(Images may not contain final product, but rather the functionality.)</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Tab.Content id="slideInUp">
                         <Row>

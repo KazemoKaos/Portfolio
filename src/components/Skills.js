@@ -2,6 +2,21 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
+import cpp from "../assets/img/cpp.svg";
+import python from "../assets/img/python.svg";
+import javascript from "../assets/img/javascript.svg";
+import unity from "../assets/img/unity.svg";
+import Java from "../assets/img/Java.svg";
+import PowerShell from "../assets/img/PowerShell.svg";
+import Bash from "../assets/img/Bash.svg";
+import HTML from "../assets/img/HTML.svg";
+import CSS from "../assets/img/CSS.svg";
+import Git from "../assets/img/Git.svg";
+import Linux from "../assets/img/Linux.svg";
+import mySQL from "../assets/img/mySQL.svg";
+import NodeJS from "../assets/img/NodeJS.svg";
+import React from "../assets/img/React.svg";
+import TensorFlow from "../assets/img/TensorFlow.svg";
 
 export const Skills = () => {
   const responsive = {
@@ -31,39 +46,63 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>This carousel displays what I have learned over the years through school and self-education. </p>
+                        <p>Skills I have learned over the years through school and self-education. </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                {/*<img src={meter1} alt="Image" />*/}
                                 <h5>C++</h5>
+                                {<img src={cpp} alt="Image" />}
                             </div>
                             <div className="item">
-                                {/*<img src={meter1} alt="Image" />*/}
                                 <h5>Python</h5>
+                                {<img src={python} alt="Image" />}
                             </div>
                             <div className="item">
-                                {/*<img src={meter1} alt="Image" />*/}
-                                <h5>JavaScript</h5>
+                                <h5>JavaScript</h5> 
+                                {<img src={javascript} alt="Image" />}
                             </div>
                             <div className="item">
-                                {/*<img src={meter1} alt="Image" />*/}
                                 <h5>Unity</h5>
+                                {<img src={unity} alt="Image" />}
                             </div>
                             <div className="item">
-                                {/*<img src={meter1} alt="Image" />*/}
-                                <h5>Test</h5>
+                                <h5>HTML</h5>
+                                {<img src={HTML} alt="Image" />}
                             </div>
                             <div className="item">
-                                {/*<img src={meter1} alt="Image" />*/}
-                                <h5>Test</h5>
+                                <h5>CSS</h5>
+                                {<img src={CSS} alt="Image" />}
                             </div>
                             <div className="item">
-                                {/*<img src={meter1} alt="Image" />*/}
-                                <h5>Test</h5>
+                                <h5>Bash</h5>
+                                {<img src={Bash} alt="Image" />}
                             </div>
                             <div className="item">
-                                {/*<img src={meter1} alt="Image" />*/}
-                                <h5>Test</h5>
+                                <h5>PowerShell</h5>
+                                {<img src={PowerShell} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>Java</h5>
+                                {<img src={Java} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>Git</h5>
+                                {<img src={Git} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>Linux</h5>
+                                {<img src={Linux} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>mySQL</h5>
+                                {<img src={mySQL} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>Node.js</h5>
+                                {<img src={NodeJS} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>TensorFlow</h5>
+                                {<img src={TensorFlow} alt="Image" />}
                             </div>
                         </Carousel>
                     </div>
