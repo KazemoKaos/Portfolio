@@ -355,7 +355,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: rgb(17, 16, 16);
 }
 .project h2 {
 	font-size: 45px;
@@ -479,7 +479,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #080808 -0%, #16bb6880 111.58%);
+  background: linear-gradient(90.21deg, #151515 -0%, #16bb6880 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {

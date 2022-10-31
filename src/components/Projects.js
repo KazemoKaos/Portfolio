@@ -8,6 +8,7 @@ import WorkInProgress from "../assets/img/WorkInProgress.png";
 import Battle from "../assets/img/Battle.png";
 import Platformer from "../assets/img/Platformer.png";
 import VR from "../assets/img/VR.png";
+import Website from "../assets/img/Website.svg";
 
 export const Projects = () => {
 
@@ -20,7 +21,7 @@ export const Projects = () => {
     {
       title: "Personal Portfolio",
       description: "This Website!",
-      imgUrl: projImg2,
+      imgUrl: Website,
     },
     {
       title: "VR Game",
