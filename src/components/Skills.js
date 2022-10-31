@@ -14,7 +14,6 @@ import CSS from "../assets/img/CSS.svg";
 import Git from "../assets/img/Git.svg";
 import Linux from "../assets/img/Linux.svg";
 import mySQL from "../assets/img/mySQL.svg";
-import NodeJS from "../assets/img/NodeJS.svg";
 import React from "../assets/img/React.svg";
 import TensorFlow from "../assets/img/TensorFlow.svg";
 
@@ -95,10 +94,6 @@ export const Skills = () => {
                             <div className="item">
                                 <h5>mySQL</h5>
                                 {<img src={mySQL} alt="Image" />}
-                            </div>
-                            <div className="item">
-                                <h5>Node.js</h5>
-                                {<img src={NodeJS} alt="Image" />}
                             </div>
                             <div className="item">
                                 <h5>TensorFlow</h5>
