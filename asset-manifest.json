@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2cc74380.css",
+    "main.css": "/Portfolio/static/css/main.b0a86fab.css",
     "main.js": "/Portfolio/static/js/main.c7929f60.js",
     "static/js/787.fb771931.chunk.js": "/Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/CommandLanguage.png": "/Portfolio/static/media/CommandLanguage.c31153459c4b096069f1.png",
@@ -41,12 +41,12 @@
     "static/media/HTML.svg": "/Portfolio/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/TensorFlow.svg": "/Portfolio/static/media/TensorFlow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
     "static/media/nav-icon2.svg": "/Portfolio/static/media/nav-icon2.9e4882114032cc67ba88f7f7057ee48a.svg",
-    "main.2cc74380.css.map": "/Portfolio/static/css/main.2cc74380.css.map",
+    "main.b0a86fab.css.map": "/Portfolio/static/css/main.b0a86fab.css.map",
     "main.c7929f60.js.map": "/Portfolio/static/js/main.c7929f60.js.map",
     "787.fb771931.chunk.js.map": "/Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cc74380.css",
+    "static/css/main.b0a86fab.css",
     "static/js/main.c7929f60.js"
   ]
 }
