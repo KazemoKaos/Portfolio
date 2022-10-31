@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b0a86fab.css",
-    "main.js": "/Portfolio/static/js/main.c7929f60.js",
+    "main.css": "/Portfolio/static/css/main.505e4bdb.css",
+    "main.js": "/Portfolio/static/js/main.f4e9b837.js",
     "static/js/787.fb771931.chunk.js": "/Portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/banner-bg.png": "/Portfolio/static/media/banner-bg.7a7e836def8aafd15723.png",
     "static/media/CommandLanguage.png": "/Portfolio/static/media/CommandLanguage.c31153459c4b096069f1.png",
-    "static/media/banner-bg.png": "/Portfolio/static/media/banner-bg.21d471b6991274e84f53.png",
     "static/media/VR.png": "/Portfolio/static/media/VR.2e696a0fc29ccc79cf2f.png",
     "static/media/Platformer.png": "/Portfolio/static/media/Platformer.af1532a7b5f0804b5ef5.png",
     "static/media/CarReservation.png": "/Portfolio/static/media/CarReservation.12aebb774cb6c6df7ca9.png",
@@ -41,12 +41,12 @@
     "static/media/HTML.svg": "/Portfolio/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/TensorFlow.svg": "/Portfolio/static/media/TensorFlow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
     "static/media/nav-icon2.svg": "/Portfolio/static/media/nav-icon2.9e4882114032cc67ba88f7f7057ee48a.svg",
-    "main.b0a86fab.css.map": "/Portfolio/static/css/main.b0a86fab.css.map",
-    "main.c7929f60.js.map": "/Portfolio/static/js/main.c7929f60.js.map",
+    "main.505e4bdb.css.map": "/Portfolio/static/css/main.505e4bdb.css.map",
+    "main.f4e9b837.js.map": "/Portfolio/static/js/main.f4e9b837.js.map",
     "787.fb771931.chunk.js.map": "/Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0a86fab.css",
-    "static/js/main.c7929f60.js"
+    "static/css/main.505e4bdb.css",
+    "static/js/main.f4e9b837.js"
   ]
 }
