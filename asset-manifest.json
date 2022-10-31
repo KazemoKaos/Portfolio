@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.2cc74380.css",
-    "main.js": "/Portfolio/static/js/main.9689368c.js",
+    "main.js": "/Portfolio/static/js/main.c7929f60.js",
     "static/js/787.fb771931.chunk.js": "/Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/CommandLanguage.png": "/Portfolio/static/media/CommandLanguage.c31153459c4b096069f1.png",
     "static/media/banner-bg.png": "/Portfolio/static/media/banner-bg.21d471b6991274e84f53.png",
@@ -19,6 +19,7 @@
     "static/media/revicons.eot": "/Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/React.svg": "/Portfolio/static/media/React.d580a556565454c43bb9f5276bcc7dce.svg",
+    "static/media/Website.svg": "/Portfolio/static/media/Website.52ce757981ef1b693ed6ad724d06d9b7.svg",
     "static/media/Linux.svg": "/Portfolio/static/media/Linux.e9286898cca413482a1b38b0a75f88f9.svg",
     "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/mySQL.svg": "/Portfolio/static/media/mySQL.c9286640a470004f40f86d07817e890e.svg",
@@ -41,11 +42,11 @@
     "static/media/TensorFlow.svg": "/Portfolio/static/media/TensorFlow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
     "static/media/nav-icon2.svg": "/Portfolio/static/media/nav-icon2.9e4882114032cc67ba88f7f7057ee48a.svg",
     "main.2cc74380.css.map": "/Portfolio/static/css/main.2cc74380.css.map",
-    "main.9689368c.js.map": "/Portfolio/static/js/main.9689368c.js.map",
+    "main.c7929f60.js.map": "/Portfolio/static/js/main.c7929f60.js.map",
     "787.fb771931.chunk.js.map": "/Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2cc74380.css",
-    "static/js/main.9689368c.js"
+    "static/js/main.c7929f60.js"
   ]
 }
