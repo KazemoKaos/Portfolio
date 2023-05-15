@@ -80,10 +80,6 @@ export const Skills = () => {
                                 {<img src={PowerShell} alt="Image" />}
                             </div>
                             <div className="item">
-                                <h5>Java</h5>
-                                {<img src={Java} alt="Image" />}
-                            </div>
-                            <div className="item">
                                 <h5>Git</h5>
                                 {<img src={Git} alt="Image" />}
                             </div>
@@ -98,6 +94,10 @@ export const Skills = () => {
                             <div className="item">
                                 <h5>TensorFlow</h5>
                                 {<img src={TensorFlow} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>React</h5>
+                                {<img src={React} alt="Image" />}
                             </div>
                         </Carousel>
                     </div>

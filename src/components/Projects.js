@@ -5,7 +5,10 @@ import projImg2 from "../assets/img/project-img2.png";
 import CommandLanguage from "../assets/img/CommandLanguage.png";
 import CarReservation from "../assets/img/CarReservation.png";
 import WorkInProgress from "../assets/img/WorkInProgress.png";
+import Sudoku from "../assets/img/cpp.png";
+import AISim from "../assets/img/AISim.png";
 import Battle from "../assets/img/Battle.png";
+import Roguelite from "../assets/img/Roguelite.png";
 import Platformer from "../assets/img/Platformer.png";
 import VR from "../assets/img/VR.png";
 import Website from "../assets/img/Website.svg";
@@ -15,7 +18,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "3D Platformer",
-      description: "Unity Game",
+      description: "Unity Game!",
       imgUrl: Platformer,
     },
     {
@@ -40,23 +43,23 @@ export const Projects = () => {
     },
     {
       title: "1v1 Battler",
-      description: "1v1 Battler in C++ using Polymorphism!",
+      description: "1v1 Battler in C++ using Polymorphism, Abstraction, & Factory Method!",
       imgUrl: Battle,
     },
     {
       title: "Sudoku Helper",
       description: "Sudoku Helper in C++ using OOP!",
-      imgUrl: WorkInProgress,
+      imgUrl: Sudoku,
     },
     {
       title: "AI Simulation using Machine Learning",
       description: "AI Simulation in Unity using Machine Learning (ML-Agents)!",
-      imgUrl: WorkInProgress,
+      imgUrl: AISim,
     },   
     {
-      title: "3D Roguelite",
-      description: "Capstone Project W.I.P.!",
-      imgUrl: WorkInProgress,
+      title: "Arclight: 3D Roguelite",
+      description: "Capstone Project!",
+      imgUrl: Roguelite,
     },
     {
       title: "Ongoing...",

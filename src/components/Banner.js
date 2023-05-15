@@ -53,8 +53,8 @@ export const Banner = () => {
                                     <span className="tagline">Welcome to my Portfolio</span>
                                     <h1>{`I'm a `}</h1>
                                     <h1>{`{ `}<span className="wrap">{text} {` }`}</span></h1>
-                                    <p>Currently a senior at University of New Haven majoring in Computer Science. 
-                                      I'm passionate about all computer related topics, especially programming and game development! Feel free to explore the site!</p>
+                                    <p>Computer Science Graduate at the University of New Haven. 
+                                    I'm passionate about all computer related topics, especially Software Engineering and Game Development! Feel free to explore the site!</p>
                                     <a href="#connect" className="text-decoration-none"><button>Let's connect!<ArrowRightCircle size={25} /></button></a>
                                 </div>}
                         </TrackVisibility>
