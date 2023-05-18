@@ -17,6 +17,13 @@ import mySQL from "../assets/img/mySQL.svg";
 import React from "../assets/img/React.svg";
 import TensorFlow from "../assets/img/TensorFlow.svg";
 
+import Blender from "../assets/img/blender.png";
+import Arduino from "../assets/img/arduino.png";
+import PlasticSCM from "../assets/img/plasticscm.png";
+import Bootstrap from "../assets/img/bootstrap.png";
+import ASP from "../assets/img/asp.jpg";
+import SSMS from "../assets/img/ssms.png";
+
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -72,24 +79,36 @@ export const Skills = () => {
                                 {<img src={CSS} alt="Image" />}
                             </div>
                             <div className="item">
-                                <h5>Bash</h5>
-                                {<img src={Bash} alt="Image" />}
-                            </div>
-                            <div className="item">
-                                <h5>PowerShell</h5>
-                                {<img src={PowerShell} alt="Image" />}
-                            </div>
-                            <div className="item">
                                 <h5>Git</h5>
                                 {<img src={Git} alt="Image" />}
                             </div>
                             <div className="item">
-                                <h5>Linux</h5>
-                                {<img src={Linux} alt="Image" />}
-                            </div>
-                            <div className="item">
                                 <h5>mySQL</h5>
                                 {<img src={mySQL} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>ASP</h5>
+                                {<img src={ASP} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>SSMS</h5>
+                                {<img src={SSMS} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>Bootstrap</h5>
+                                {<img src={Bootstrap} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>PlasticSCM</h5>
+                                {<img src={PlasticSCM} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>Arduino</h5>
+                                {<img src={Arduino} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>Blender</h5>
+                                {<img src={Blender} alt="Image" />}
                             </div>
                             <div className="item">
                                 <h5>TensorFlow</h5>

@@ -12,6 +12,7 @@ import Roguelite from "../assets/img/Roguelite.png";
 import Platformer from "../assets/img/Platformer.png";
 import VR from "../assets/img/VR.png";
 import Website from "../assets/img/Website.svg";
+import Client from "../assets/img/CLIENTIMG.png";
 
 export const Projects = () => {
 
@@ -62,9 +63,9 @@ export const Projects = () => {
       imgUrl: Roguelite,
     },
     {
-      title: "Ongoing...",
-      description: "More projects to come!",
-      imgUrl: WorkInProgress,
+      title: "Client Web App",
+      description: "C#/ASP.NET Core with SQL !",
+      imgUrl: Client,
     },
   ];
 
@@ -76,6 +77,7 @@ export const Projects = () => {
                   <div>
                   <h2>Projects</h2>
                   <p>These are some projects that I have either ongoing or finished.</p>
+                  <p>Visit my GitHub for more information.</p>
                   <p>(Images may not contain final product, but rather the functionality.)</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Tab.Content id="slideInUp">
