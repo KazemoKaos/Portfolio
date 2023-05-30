@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.48ece4e8.css",
-    "main.js": "/Portfolio/static/js/main.d6a552fe.js",
+    "main.js": "/Portfolio/static/js/main.3a6053fd.js",
     "static/js/787.fb771931.chunk.js": "/Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/banner-bg.png": "/Portfolio/static/media/banner-bg.7a7e836def8aafd15723.png",
     "static/media/Roguelite.png": "/Portfolio/static/media/Roguelite.6305b99de4775d556bb8.png",
@@ -52,11 +52,11 @@
     "static/media/TensorFlow.svg": "/Portfolio/static/media/TensorFlow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
     "static/media/nav-icon2.svg": "/Portfolio/static/media/nav-icon2.9e4882114032cc67ba88f7f7057ee48a.svg",
     "main.48ece4e8.css.map": "/Portfolio/static/css/main.48ece4e8.css.map",
-    "main.d6a552fe.js.map": "/Portfolio/static/js/main.d6a552fe.js.map",
+    "main.3a6053fd.js.map": "/Portfolio/static/js/main.3a6053fd.js.map",
     "787.fb771931.chunk.js.map": "/Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48ece4e8.css",
-    "static/js/main.d6a552fe.js"
+    "static/js/main.3a6053fd.js"
   ]
 }
