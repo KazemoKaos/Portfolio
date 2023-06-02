@@ -1,71 +1,113 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard.js";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
 import CommandLanguage from "../assets/img/CommandLanguage.png";
-import CarReservation from "../assets/img/CarReservation.png";
-import WorkInProgress from "../assets/img/WorkInProgress.png";
-import Sudoku from "../assets/img/cpp.png";
+import CarReservation from "../assets/img/carreservation.png";
+import WorkInProgress from "../assets/img/workin.png";
+import Sudoku from "../assets/img/sudoku.png";
 import AISim from "../assets/img/AISim.png";
-import Battle from "../assets/img/Battle.png";
+import Battle from "../assets/img/battlegame.png";
 import Roguelite from "../assets/img/Roguelite.png";
-import Platformer from "../assets/img/Platformer.png";
-import VR from "../assets/img/VR.png";
-import Website from "../assets/img/Website.svg";
+import Platformer from "../assets/img/platformer.png";
+import VR from "../assets/img/vr.png";
+import Website from "../assets/img/website.png";
 import Client from "../assets/img/CLIENTIMG.png";
+import zephyr from "../assets/img/zephyr.png";
+import sm from "../assets/img/slotmachine.png";
+import ie from "../assets/img/interactiveenv.png";
+import { WindowPlus } from "react-bootstrap-icons";
 
 export const Projects = () => {
 
   const projects = [
     {
-      title: "3D Platformer",
-      description: "Unity Game!",
-      imgUrl: Platformer,
+      title: "Zephyr | MERN Stack",
+      description: "Social Media Web App!",
+      projUrl: 'https://github.com/KazemoKaos/Zephyr',
+      imgUrl: zephyr,
     },
     {
       title: "Personal Portfolio",
       description: "This Website!",
+      projUrl: 'https://github.com/KazemoKaos/Portfolio',
       imgUrl: Website,
-    },
-    {
-      title: "VR Game",
-      description: "Carnvial Themed VR Game in Unity!",
-      imgUrl: VR,
-    },
-    {
-      title: "Basic Command Language",
-      description: "Basic Command Language in Linux using C/C++!",
-      imgUrl: CommandLanguage,
-    },    
-    {
-      title: "Car Reservaion",
-      description: "Car Reservation System in C++ using Linked Lists!",
-      imgUrl: CarReservation,
-    },
-    {
-      title: "1v1 Battler",
-      description: "1v1 Battler in C++ using Polymorphism, Abstraction, & Factory Method!",
-      imgUrl: Battle,
-    },
-    {
-      title: "Sudoku Helper",
-      description: "Sudoku Helper in C++ using OOP!",
-      imgUrl: Sudoku,
-    },
-    {
-      title: "AI Simulation using Machine Learning",
-      description: "AI Simulation in Unity using Machine Learning (ML-Agents)!",
-      imgUrl: AISim,
-    },   
-    {
-      title: "Arclight: 3D Roguelite",
-      description: "Capstone Project!",
-      imgUrl: Roguelite,
     },
     {
       title: "Client Web App",
       description: "C#/ASP.NET Core with SQL !",
+      projUrl: 'https://github.com/KazemoKaos/Client-Web-App',
       imgUrl: Client,
+    },
+    {
+      title: "Arclight: 3D Roguelite",
+      description: "Capstone Project!",
+      projUrl: 'https://github.com/KazemoKaos/Arclight',
+      imgUrl: Roguelite,
+    },
+    {
+      title: "Interactive Environment",
+      description: "Unity Game!",
+      projUrl: 'https://github.com/KazemoKaos/Interactive-Environment',
+      imgUrl: ie,
+    },
+    {
+      title: "AI Simulation using Machine Learning",
+      description: "AI Simulation in Unity using Machine Learning (ML-Agents)!",
+      projUrl: 'https://github.com/KazemoKaos/MachineLearningSimulation',
+      imgUrl: AISim,
+    },  
+    {
+      title: "Sudoku Helper",
+      description: "Sudoku Helper in C++ using OOP!",
+      projUrl: 'https://github.com/KazemoKaos/Sudoku-Helper',
+      imgUrl: Sudoku,
+    },
+    {
+      title: "Car Reservaion",
+      description: "Car Reservation System in C++ using Linked Lists!",
+      projUrl: 'https://github.com/KazemoKaos/Car-Reservation',
+      imgUrl: CarReservation,
+    },
+    {
+      title: "Slot Machine",
+      description: "Slot Machine in C++ using Circular Linked Lists!",
+      projUrl: 'https://github.com/KazemoKaos/Slot-Machine',
+      imgUrl: sm,
+    },
+    {
+      title: "1v1 Battler",
+      description: "1v1 Battler in C++ using Polymorphism, Abstraction, & Factory Method!",
+      projUrl: 'https://github.com/KazemoKaos/1v1-Battler',
+      imgUrl: Battle,
+    }, 
+    {
+      title: "Basic Command Language",
+      description: "Basic Command Language in Linux using C/C++!",
+      projUrl: 'https://github.com/KazemoKaos/Basic-Command-Language',
+      imgUrl: CommandLanguage,
+    },    
+    {
+      title: "3D Platformer",
+      description: "Unity Game!",
+      projUrl: 'https://github.com/KazemoKaos/3D-Platformer',
+      imgUrl: Platformer,
+    },
+    {
+      title: "VR Game",
+      description: "Carnvial Themed VR Game in Unity!",
+      projUrl: 'https://github.com/KazemoKaos/VR-Game',
+      imgUrl: VR,
+    },
+    {
+      title: "Work in Progress!",
+      description: "Work in Progress!",
+      projUrl: 'https://github.com/KazemoKaos',
+      imgUrl: WorkInProgress,
+    },
+    {
+      title: "Work in Progress!",
+      description: "Work in Progress!",
+      projUrl: 'https://github.com/KazemoKaos',
+      imgUrl: WorkInProgress,
     },
   ];
 
@@ -77,8 +119,6 @@ export const Projects = () => {
                   <div>
                   <h2>Projects</h2>
                   <p>These are some projects that I have either ongoing or finished.</p>
-                  <p>Visit my GitHub for more information.</p>
-                  <p>(Images may not contain final product, but rather the functionality.)</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Tab.Content id="slideInUp">
                         <Row>

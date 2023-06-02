@@ -24,6 +24,10 @@ import Bootstrap from "../assets/img/bootstrap.png";
 import ASP from "../assets/img/asp.jpg";
 import SSMS from "../assets/img/ssms.png";
 
+import MongoDB from "../assets/img/mongodb.svg";
+import Express from "../assets/img/icons8-express-js.svg";
+import Node from "../assets/img/nodejs-icon.svg";
+
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -115,8 +119,20 @@ export const Skills = () => {
                                 {<img src={TensorFlow} alt="Image" />}
                             </div>
                             <div className="item">
+                                <h5>MongoDB</h5>
+                                {<img src={MongoDB} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>Express</h5>
+                                {<img src={Express} alt="Image" />}
+                            </div>
+                            <div className="item">
                                 <h5>React</h5>
                                 {<img src={React} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>Node</h5>
+                                {<img src={Node} alt="Image" />}
                             </div>
                         </Carousel>
                     </div>
