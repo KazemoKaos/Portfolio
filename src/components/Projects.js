@@ -14,6 +14,7 @@ import Client from "../assets/img/CLIENTIMG.png";
 import zephyr from "../assets/img/zephyr.png";
 import sm from "../assets/img/slotmachine.png";
 import ie from "../assets/img/interactiveenv.png";
+import rbtree from "../assets/img/rbtree.png";
 import { WindowPlus } from "react-bootstrap-icons";
 
 export const Projects = () => {
@@ -80,6 +81,12 @@ export const Projects = () => {
       imgUrl: Battle,
     }, 
     {
+      title: "Red Black Tree",
+      description: "Red Black Tree using C++!",
+      projUrl: 'https://github.com/KazemoKaos/RBTree',
+      imgUrl: rbtree,
+    },    
+    {
       title: "Basic Command Language",
       description: "Basic Command Language in Linux using C/C++!",
       projUrl: 'https://github.com/KazemoKaos/Basic-Command-Language',
@@ -96,12 +103,6 @@ export const Projects = () => {
       description: "Carnvial Themed VR Game in Unity!",
       projUrl: 'https://github.com/KazemoKaos/VR-Game',
       imgUrl: VR,
-    },
-    {
-      title: "Work in Progress!",
-      description: "Work in Progress!",
-      projUrl: 'https://github.com/KazemoKaos',
-      imgUrl: WorkInProgress,
     },
     {
       title: "Work in Progress!",
