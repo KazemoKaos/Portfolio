@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6a71c3d9.css",
-    "main.js": "/Portfolio/static/js/main.6310c260.js",
+    "main.js": "/Portfolio/static/js/main.4792e44f.js",
     "static/js/787.fb771931.chunk.js": "/Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/banner-bg.png": "/Portfolio/static/media/banner-bg.7a7e836def8aafd15723.png",
     "static/media/Roguelite.png": "/Portfolio/static/media/Roguelite.6305b99de4775d556bb8.png",
@@ -20,6 +20,7 @@
     "static/media/CentraNo2-Bold.ttf": "/Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/Portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/Portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/rbtree.png": "/Portfolio/static/media/rbtree.75a2fa90ae12d53add69.png",
     "static/media/carreservation.png": "/Portfolio/static/media/carreservation.2d983e285ef243745070.png",
     "static/media/CLIENTIMG.png": "/Portfolio/static/media/CLIENTIMG.3d339bc081c6dd6be4e0.png",
     "static/media/slotmachine.png": "/Portfolio/static/media/slotmachine.a6d50577407e02559f6e.png",
@@ -56,11 +57,11 @@
     "static/media/TensorFlow.svg": "/Portfolio/static/media/TensorFlow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
     "static/media/nav-icon2.svg": "/Portfolio/static/media/nav-icon2.9e4882114032cc67ba88f7f7057ee48a.svg",
     "main.6a71c3d9.css.map": "/Portfolio/static/css/main.6a71c3d9.css.map",
-    "main.6310c260.js.map": "/Portfolio/static/js/main.6310c260.js.map",
+    "main.4792e44f.js.map": "/Portfolio/static/js/main.4792e44f.js.map",
     "787.fb771931.chunk.js.map": "/Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a71c3d9.css",
-    "static/js/main.6310c260.js"
+    "static/js/main.4792e44f.js"
   ]
 }
