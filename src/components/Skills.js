@@ -27,6 +27,7 @@ import SSMS from "../assets/img/ssms.png";
 import MongoDB from "../assets/img/mongodb.svg";
 import Express from "../assets/img/icons8-express-js.svg";
 import Node from "../assets/img/nodejs-icon.svg";
+import csharp from "../assets/img/c-sharp-c-logo-02F17714BA-seeklogo.com.png";
 
 export const Skills = () => {
   const responsive = {
@@ -61,6 +62,10 @@ export const Skills = () => {
                             <div className="item">
                                 <h5>C++</h5>
                                 {<img src={cpp} alt="Image" />}
+                            </div>
+                            <div className="item">
+                                <h5>C#</h5> 
+                                {<img src={csharp} alt="Image" />}
                             </div>
                             <div className="item">
                                 <h5>Python</h5>
