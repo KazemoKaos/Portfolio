@@ -2,4 +2,4 @@
 
 https://kazemokaos.github.io/Portfolio/
 
-![alt](https://cdn.discordapp.com/attachments/1010766384646602856/1113978736400945332/image.png)
+![Portfolio](https://github.com/KazemoKaos/Portfolio/assets/34223008/620c4906-006c-4f18-8a1a-ea2cad07f8a2)
