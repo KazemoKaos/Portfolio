@@ -9,7 +9,7 @@ export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(0);
-    const toRotate = ["Software Engineer", "Unity Developer", "Web Developer", "Tech Enthusiast"];
+    const toRotate = ["Software Engineer", "System Engineer", "IT Technician", "Tech Enthusiast"];
     const period = 2000;
 
     useEffect(() => {
