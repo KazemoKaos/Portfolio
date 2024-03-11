@@ -54,7 +54,7 @@ export const Banner = () => {
                                     <h1>{`I'm a `}</h1>
                                     <h1>{`{ `}<span className="wrap">{text} {` }`}</span></h1>
                                     <p>Computer Science Graduate at the University of New Haven. 
-                                    I'm passionate about all computer related topics, especially Software Engineering and Game Development! Feel free to explore the site!</p>
+                                    I'm passionate about all computer related topics, especially Software, Systems, IT, and Game Development! Feel free to explore the site!</p>
                                     <a href="#connect" className="text-decoration-none"><button>Let's connect!<ArrowRightCircle size={25} /></button></a>
                                 </div>}
                         </TrackVisibility>
