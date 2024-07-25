@@ -63,47 +63,11 @@ export const Projects = () => {
       imgUrl: Sudoku,
     },
     {
-      title: "Car Reservaion",
-      description: "Car Reservation System in C++ using Linked Lists!",
-      projUrl: 'https://github.com/KazemoKaos/Car-Reservation',
-      imgUrl: CarReservation,
-    },
-    {
-      title: "Slot Machine",
-      description: "Slot Machine in C++ using Circular Linked Lists!",
-      projUrl: 'https://github.com/KazemoKaos/Slot-Machine',
-      imgUrl: sm,
-    },
-    {
       title: "1v1 Battler",
       description: "1v1 Battler in C++ using Polymorphism, Abstraction, & Factory Method!",
       projUrl: 'https://github.com/KazemoKaos/1v1-Battler',
       imgUrl: Battle,
     }, 
-    {
-      title: "Red Black Tree",
-      description: "Red Black Tree using C++!",
-      projUrl: 'https://github.com/KazemoKaos/RBTree',
-      imgUrl: rbtree,
-    },    
-    {
-      title: "Basic Command Language",
-      description: "Basic Command Language in Linux using C/C++!",
-      projUrl: 'https://github.com/KazemoKaos/Basic-Command-Language',
-      imgUrl: CommandLanguage,
-    },    
-    {
-      title: "3D Platformer",
-      description: "Unity Game!",
-      projUrl: 'https://github.com/KazemoKaos/3D-Platformer',
-      imgUrl: Platformer,
-    },
-    {
-      title: "VR Game",
-      description: "Carnvial Themed VR Game in Unity!",
-      projUrl: 'https://github.com/KazemoKaos/VR-Game',
-      imgUrl: VR,
-    },
     {
       title: "Work in Progress!",
       description: "Work in Progress!",
