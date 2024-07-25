@@ -53,8 +53,7 @@ export const Banner = () => {
                                     <span className="tagline">Welcome to my Portfolio</span>
                                     <h1>{`Hi, I'm Tyler Nguyen! `}</h1>
                                     <h1>{`< `}<span className="wrap">{text} {` >`}</span></h1>
-                                    <p>Computer Science Graduate at the University of New Haven. 
-                                    I'm passionate about all computer related topics, especially Software, Systems, IT, and Game Development! Feel free to explore the site!</p>
+                                    <p>How are you? I'm a Computer Science graduate from the University of New Haven. I have a passion for everything tech, especially software development, systems, IT, and game development. Feel free to explore my site and connect with me!</p>
                                     <a href="#connect" className="text-decoration-none"><button>Let's connect!<ArrowRightCircle size={25} /></button></a>
                                 </div>}
                         </TrackVisibility>
