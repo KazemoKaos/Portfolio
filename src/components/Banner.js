@@ -51,7 +51,7 @@ export const Banner = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Welcome to my Portfolio</span>
-                                    <h1>{`I'm a `}</h1>
+                                    <h1>{`Hi, I'm Tyler Nguyen! `}</h1>
                                     <h1>{`< `}<span className="wrap">{text} {` >`}</span></h1>
                                     <p>Computer Science Graduate at the University of New Haven. 
                                     I'm passionate about all computer related topics, especially Software, Systems, IT, and Game Development! Feel free to explore the site!</p>
