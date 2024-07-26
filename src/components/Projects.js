@@ -1,20 +1,11 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard.js";
-import CommandLanguage from "../assets/img/CommandLanguage.png";
-import CarReservation from "../assets/img/carreservation.png";
 import WorkInProgress from "../assets/img/workin.png";
 import Sudoku from "../assets/img/sudok.png";
-import AISim from "../assets/img/AISim.png";
-import Battle from "../assets/img/battlegame.png";
 import Roguelite from "../assets/img/Roguelite.png";
-import Platformer from "../assets/img/platformer.png";
-import VR from "../assets/img/vr.png";
 import Website from "../assets/img/website.png";
 import sms from "../assets/img/sms2 - Copy.png";
 import zephyr from "../assets/img/zephyr.png";
-import sm from "../assets/img/slotmachine.png";
-import ie from "../assets/img/interactiveenv.png";
-import rbtree from "../assets/img/rbtree.png";
 import { WindowPlus } from "react-bootstrap-icons";
 
 export const Projects = () => {
@@ -39,8 +30,8 @@ export const Projects = () => {
       imgUrl: Roguelite,
     },
     {
-      title: "Stock-Management-System",
-      description: "Python with SQL!",
+      title: "Stock Management System",
+      description: "CRUD App | Python with SQL!",
       projUrl: 'https://github.com/KazemoKaos/Stock-Management-System',
       imgUrl: sms,
     },
