@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard.js";
 import WorkInProgress from "../assets/img/workin.png";
 import Sudoku from "../assets/img/sudok.png";
 import Roguelite from "../assets/img/Roguelite.png";
-import Website from "../assets/img/website.png";
+import Website from "../assets/img/Main Website.png";
 import sms from "../assets/img/sms2 - Copy.png";
 import zephyr from "../assets/img/zephyr.png";
 import { WindowPlus } from "react-bootstrap-icons";
