@@ -3,14 +3,14 @@ import { ProjectCard } from "./ProjectCard.js";
 import CommandLanguage from "../assets/img/CommandLanguage.png";
 import CarReservation from "../assets/img/carreservation.png";
 import WorkInProgress from "../assets/img/workin.png";
-import Sudoku from "../assets/img/sudoku.png";
+import Sudoku from "../assets/img/sudok.png";
 import AISim from "../assets/img/AISim.png";
 import Battle from "../assets/img/battlegame.png";
 import Roguelite from "../assets/img/Roguelite.png";
 import Platformer from "../assets/img/platformer.png";
 import VR from "../assets/img/vr.png";
 import Website from "../assets/img/website.png";
-import Client from "../assets/img/CLIENTIMG.png";
+import sms from "../assets/img/sms2 - Copy.png";
 import zephyr from "../assets/img/zephyr.png";
 import sm from "../assets/img/slotmachine.png";
 import ie from "../assets/img/interactiveenv.png";
@@ -39,10 +39,10 @@ export const Projects = () => {
       imgUrl: Roguelite,
     },
     {
-      title: "Client Web App",
-      description: "C#/ASP.NET Core with SQL!",
-      projUrl: 'https://github.com/KazemoKaos/Client-Web-App',
-      imgUrl: Client,
+      title: "Stock-Management-System",
+      description: "Python with SQL!",
+      projUrl: 'https://github.com/KazemoKaos/Stock-Management-System',
+      imgUrl: sms,
     },
     {
       title: "Sudoku Helper",
